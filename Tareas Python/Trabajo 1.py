@@ -29,6 +29,8 @@ if tramo == 'A' or tramo == 'B':
     descuento_despacho = 0.10
     if edad >= 55:
         descuento_despacho += 0.05
+    else:
+        descuento_despacho = 0.0
 
 #Cálculo de los valores
 
